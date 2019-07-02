@@ -1,0 +1,33 @@
+<h3>List of Student</h3><br><br>
+
+
+<div class="col-md-6">
+  <table class="table ">
+    <thead>
+    <tr>
+      <th>Id</th>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Email</th>
+      <th>Grades</th>
+      <th>Course</th>
+      <th>Year</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr *ngFor="let student of Student">
+      <td>{{student.id}}</td>
+      <td>{{student.firstname}}</td>
+      <td>{{student.lastname}}</td>
+      <td>{{student.email}}</td>
+      <td>{{student.grades}}</td>
+      <td>{{student.course}}</td>
+      <td>{{student.year}}</td>
+      <td><button  (click)="delete(student)"> Delete </button></td>
+    </tr>
+    <button  (click)="goBack()">Back</button>
+    </tbody><br><br><br>
+  </table>
+
+</div>

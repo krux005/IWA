@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringBootJspAndRest.iml" filepath="$PROJECT_DIR$/.idea/SpringBootJspAndRest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootJsp/rkotas.iml" filepath="$PROJECT_DIR$/SpringBootJsp/rkotas.iml" />
+    </modules>
+  </component>
+</project>

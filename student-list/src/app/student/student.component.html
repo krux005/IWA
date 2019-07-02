@@ -1,0 +1,38 @@
+<h3>New students</h3>
+<div>
+  <label>Student firstname:
+    <input #studentFirstname/>
+  </label>
+  <br><br>
+
+  <label>Student lastname:
+    <input #studentLastname/>
+  </label>
+  <br><br>
+  <label>Student email:
+    <input #studentEmail/>
+  </label>
+  <br><br>
+  <label>Student grades
+    <input #studentGrades/>
+  </label>
+  <br>
+ <br>
+  <label>Student course
+  <input #studentCourse/>
+  </label>
+  <br><br>
+  <label>Student year
+  <input #studentYear/>
+  </label>
+  <br><br>
+
+  <button (click)="add(studentFirstname.value, studentLastname.value, studentEmail.value, studentGrades.value, studentCourse.value, studentYear.value);
+                  studentFirstname.value=''; studentLastname.value=''; studentEmail.value=''; studentGrades.value=''; studentCourse.value=''; studentYear.value=''">
+    Add new student
+  </button>
+
+</div>
+<br><br>
+<button (click)="goback()">Back</button>
+
